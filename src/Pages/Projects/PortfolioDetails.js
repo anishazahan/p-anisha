@@ -21,6 +21,7 @@ const PortfolioDetails = () => {
 
            },[id])
            
+           
 
       
   return (
