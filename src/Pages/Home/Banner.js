@@ -4,12 +4,14 @@ import banner from '../../img/1_YZ2fsT9k1CmlMil-Fda0Zg.png'
 import {FaFacebookSquare,FaLinkedin,FaSkype,FaGooglePlus } from "react-icons/fa";
 import { Link } from 'react-router-dom';
 import resume2 from "./Resume.pdf"
+import svgImg from "../../img/home.svg"
 
 
 const Banner = () => {
   return (
 
     <div className='banner'>
+      {/* <img className='w-32 top-0 right-0' src={svgImg} alt="" /> */}
       <div className="flex flex-col lg:flex-row  h-[50vh] lg:h-[90vh] max-w-7xl w-full mx-auto justify-between">
         <div className="content w-full lg:w-[48%] items-center flex flex-col h-full justify-center lg:items-start lg:my-auto lg:ml-10">
                <h2 className='text-amber-50 text-5xl font-bold mb-3 mt-10 lg:mt-0'>Hey!!! I'am</h2>

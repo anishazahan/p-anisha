@@ -3,11 +3,23 @@
 /* .content{
     background-color: ;
 } */
+body{
+    background-color: black;
 
-
+}
+/* 
 .banner{
 
-background: black;
+background: url(../../img/home.svg);
+
+} */
+
+.img-section{
+    background: url("../../img/home.svg");
+    background-repeat: no-repeat;
+    top: 0;
+    left: 0;
+    width: 40%;
 }
 
 .icon{

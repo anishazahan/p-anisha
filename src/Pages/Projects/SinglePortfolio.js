@@ -2,6 +2,8 @@ import React from 'react'
 import { useNavigate } from 'react-router-dom'
 
 const SinglePortfolio = ({portfolio}) => {
+  
+console.log(portfolio);
 
     const {_id} = portfolio;
     console.log(_id);

@@ -6,23 +6,20 @@ import { BsCheckLg} from "react-icons/fa";
 
 const PortfolioDetails = () => {
 
-    const {id} = useParams()
-    // console.log(id);
+    const {_id} = useParams()
+    console.log("details" + _id);
 
     const [portfolioDetail,setPortfolioDetail]= useState([]);
 
     useEffect(()=>{
-        const url = `https://portfolio-server-hs1y.onrender.com/api/project/${id}`
+        const url = `https://portfolio-server-hs1y.onrender.com/api/project/${_id}`
             axios.get(url)
             .then(data =>
                 // console.log(data.data)
                 setPortfolioDetail(data.data)
                );
 
-           },[id])
-           
-           
-
+           },[_id])
       
   return (
     <div className='bg-black py-20'>
