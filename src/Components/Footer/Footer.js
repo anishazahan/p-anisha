@@ -7,7 +7,7 @@ import "./Footer.css"
 const Footer = () => {
   return (
     <div className=" p-10 bg-black px-20 text-gray-400">
-    <footer className="max-w-7xl mx-auto flex flex-col lg:flex-row justify-between items-center space-y-7 ld:space-y-0">
+    <footer className="max-w-7xl mx-auto flex flex-col lg:flex-row justify-between lg:marker:items-center space-y-7 ld:space-y-0">
     <div className='flex flex-col'>
       <span className="font-semibold uppercase">Services</span> 
       <Link to='/services' className="link link-hover">React Application</Link> 
