@@ -54,7 +54,7 @@ const Contact = () => {
 
 
 
-                <form action="https://formspree.io/f/myyovplp" method='post' className="mt-10">
+                <form action="https://formspree.io/f/myyovplp" method='post' className="mt-10 px-5 md:px-0">
                 
                 
 
@@ -76,9 +76,6 @@ const Contact = () => {
                 <button type="submit" className="mt-5 bg-black px-10 py-3 text-white">Send Message</button>
                 </form>
 
-
-  
-                   
                 </div>
             </div>
         </div>

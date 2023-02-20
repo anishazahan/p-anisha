@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import logo from '../../img/Capture-removebg-preview.png'
-import resume1 from './Resume.pdf'
+import resume1 from './resume.pdf'
 
 const Menubar = () => {
     const [nav, setNav] = useState(false);

@@ -1,12 +1,6 @@
 
 
-/* .skill-bg{
-    background: url("../../img/home.svg");
-    background-repeat: no-repeat;
-    width: 30%;
-    top: 0;
-    right: 0;
-} */
+
 
 .skill-btn{
   
@@ -20,6 +14,10 @@
     border-radius: 10px;
     background: linear-gradient(145deg, black, black);
     /* box-shadow: 4px 4px 8px black,4px -4px 8px black; */
+}
+
+.html-skill{
+    filter: grayscale(100%);
 }
 
 /* .................projects,,,,,,,,,,,,,,,,,,,,,,,,, */
